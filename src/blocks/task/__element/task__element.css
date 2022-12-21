@@ -1,7 +1,10 @@
 .task__element{
   margin: 0;
   padding: 0;
-  max-width: 500px;
+  width: 500px;
+  height: 80px;
+  gap: 15px;
+  position: relative;
 }
 
 .task__element:hover{
