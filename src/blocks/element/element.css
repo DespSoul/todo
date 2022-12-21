@@ -1,0 +1,8 @@
+.element{
+  margin: 20px 0 5px;
+  padding: 0 0 10px;
+  max-width: 500px;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+}

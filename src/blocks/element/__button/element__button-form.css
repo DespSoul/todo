@@ -1,0 +1,18 @@
+.element__button-form {
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  height: 30px;
+  background-color: rgb(10, 10, 10);
+  color: #fff;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  transition: all 1s;
+}
+
+.element__button-form:hover {
+  background-color: rgb(10, 10, 10, .8);
+  cursor: pointer;
+}

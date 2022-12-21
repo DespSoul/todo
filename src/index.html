@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css" />
+  <title>Todo</title>
+</head>
+
+<body class="page">
+  <div class="body">
+    <div class="element">
+      <h1 class="element__text">TODO list</h1>
+      <form action="" class="element__form">
+        <input type="text" class="element__input-form">
+        <button class="element__button-form">Создать</button>
+      </form>
+    </div>
+    <nav class="navigation">
+      <button class="navigation__button navigation__button-all">Все</button>
+      <button class="navigation__button navigation__button-unfulfilled">Невыполненные</button>
+      <button class="navigation__button navigation__button-completed">Выполненные</button>
+    </nav>
+    <div class="task">
+      <h2 class="task__text">0 Заданий на данный момент</h2>
+      <div class="task__elements">
+        <div class="task__element">
+          <div class="task__content">
+            <input type="radio" class="task__input-completed">
+            <p class="task__title">fasfdfasdfasd</p>
+          </div>
+          <button class="tusk__button-delete"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <template class="task__element-template">
+    <div class="task__element">
+      <input type="radio" class="task__input-completed">
+      <p class="task__text"></p>
+      <button class="tusk__button-delete"></button>
+    </div>
+  </template>
+</body>
+
+</html>

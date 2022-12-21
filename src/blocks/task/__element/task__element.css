@@ -1,0 +1,9 @@
+.task__element{
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+}
+
+.task__element:hover{
+  box-shadow:  0 0 10px rgb(93, 95, 62);
+}
