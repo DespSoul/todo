@@ -1,17 +1,14 @@
-.task__button-delete{
+.task__button{
   margin: 0;
   padding: 0;
-  position: absolute;
   width: 200px;
   height: 25px;
   background-color: #000;
   color: #fff;
-  right: 5px;
-  bottom: 5px;
   transition: all 1s;
 }
 
-.task__button-delete:hover{
+.task__button:hover{
   cursor: pointer;
   background-color: rgba(19, 19, 16, 0.8);
 }

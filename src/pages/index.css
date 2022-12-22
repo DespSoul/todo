@@ -15,7 +15,8 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__button/navigation__button.css);
 
-@import url(../blocks/task/__button-delete/task__button-delete.css);
+@import url(../blocks/task/__button/task__button.css);
+@import url(../blocks/task/__buttons/task__buttons.css);
 @import url(../blocks/task/__elements/task__element.css);
 @import url(../blocks/task/__input/task__input.css);
 @import url(../blocks/task/__text/task__text.css);
