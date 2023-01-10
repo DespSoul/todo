@@ -1,1 +1,1 @@
-export const buttonCreateTask = document.querySelector(".element__button-form");
+export const formCreateTask = document.querySelector(".element__form");

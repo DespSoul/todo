@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css" />
+  <script type="module" src="./script/index.js" defer></script>
   <title>Todo</title>
 </head>
 
@@ -13,9 +14,9 @@
   <div class="body">
     <div class="element">
       <h1 class="element__text">TODO list</h1>
-      <form action="" class="element__form">
-        <input type="text" class="element__input-form">
-        <button class="element__button-form">Создать</button>
+      <form class="element__form">
+        <input type="text" class="element__input-form" name="target" minlength="3">
+        <button class="element__button-form" type="submit">Создать</button>
       </form>
     </div>
     <nav class="navigation">
@@ -24,24 +25,23 @@
       <button class="navigation__button navigation__button-completed">Выполненные</button>
     </nav>
     <div class="task">
-      <h2 class="task__text">0 Заданий на данный момент</h2>
+      <h2 class="task__text"><span class="task__number">0</span> Заданий на данный момент</h2>
       <div class="task__elements">
-          </div>
-        </div>
       </div>
     </div>
   </div>
   <template class="task__element-template">
-    <div class="task__element">
+    <div class="task__element" draggable="true">
       <label class="task__label">
         <input type="checkbox" class="task__input">
         <span class="task__span"></span>
-        <p class="task__title">fasfdfasdfasd</p>
+        <p class="task__title"></p>
       </label>
       <div class="task__buttons">
-        <button class="task__button task__button-edit">Изменить</button>
-        <button class="task__button task__button-delete">Удалить</button>
-    </div>
+        <div class="task__button task__button-edit">Изменить</div>
+        <div class="task__button task__button-delete">Удалить</div>
+      </div>
+      </div>
   </template>
 </body>
 

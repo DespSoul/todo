@@ -5,6 +5,7 @@
   height: 30px;
   background-image: url(../../../img/unchecked.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .task__input:hover+.task__span {
