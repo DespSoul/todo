@@ -19,11 +19,12 @@
 @import url(../blocks/task/__number/task__number.css);
 @import url(../blocks/task/__buttons/task__buttons.css);
 @import url(../blocks/task/__elements/task__element.css);
-@import url(../blocks/task/__input/task__input.css);
 @import url(../blocks/task/__text/task__text.css);
 @import url(../blocks/task/__title/task__title.css);
 @import url(../blocks/task/__element/task__element.css);
 @import url(../blocks/task/__label/task__label.css);
-@import url(../blocks/task/__span/task__span.css);
+@import url(../blocks/task/__control/task__control.css);
+@import url(../blocks/task/__control/_completed/task__control_completed.css);
+@import url(../blocks/task/__element/_hide/task__element_hide.css);
 @import url(../blocks/task/task.css);
 

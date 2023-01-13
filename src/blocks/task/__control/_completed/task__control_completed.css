@@ -1,0 +1,5 @@
+.task__control_completed{
+  margin: 0;
+  background-image: url(../../../../img/approved.png);
+  background-color: rgb(238, 192, 76);
+}

@@ -1,4 +1,4 @@
-.task__span {
+.task__control {
   margin: 0;
   padding: 0;
   width: 30px;
@@ -6,13 +6,10 @@
   background-image: url(../../../img/unchecked.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.task__input:hover+.task__span {
-  cursor: pointer;
-}
-
-.task__input:checked+.task__span {
-  background-image: url(../../../img/approved.png);
   background-color: rgb(238, 192, 76);
+  border: none;
+}
+
+.task__control:hover {
+  cursor: pointer;
 }

@@ -1,7 +1,20 @@
 import Task from "./Task.js";
 import Section from "./Section.js";
 import Counter from "./Counter.js";
-import { formCreateTask } from "./const.js";
+import Sorting from "./Sorting.js";
+import { formCreateTask, inputFormElement } from "./const.js";
+
+
+  const sorting = new Sorting(
+    ".navigation__button-all",
+    ".navigation__button-unfulfilled",
+    ".navigation__button-completed",
+    ".task__element"
+  );
+  sorting.setEventListeners()
+
+const counter = new Counter(".task__elements", ".task__number");
+const section = new Section(createTask());
 
 function createTask() {
   const task = new Task(
@@ -14,12 +27,10 @@ function createTask() {
   return task.createElement();
 }
 
-const counter = new Counter(".task__elements", ".task__number");
-
-const section = new Section(createTask());
-
 formCreateTask.addEventListener("submit", (e) => {
   e.preventDefault();
   section.addItem(createTask());
   counter.counterElement();
+  inputFormElement.value = " ";
 });
+
